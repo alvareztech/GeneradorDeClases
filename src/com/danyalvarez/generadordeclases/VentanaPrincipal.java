@@ -107,7 +107,7 @@ public class VentanaPrincipal extends javax.swing.JFrame {
             }
         });
 
-        btnAdicionarAtributo.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/adicionar.png"))); // NOI18N
+        btnAdicionarAtributo.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/danyalvarez/generadordeclases/images/adicionar.png"))); // NOI18N
         btnAdicionarAtributo.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 btnAdicionarAtributoActionPerformed(evt);
@@ -173,7 +173,7 @@ public class VentanaPrincipal extends javax.swing.JFrame {
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
 
-        btnGenerarClaseJava.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/java.png"))); // NOI18N
+        btnGenerarClaseJava.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/danyalvarez/generadordeclases/images/java.png"))); // NOI18N
         btnGenerarClaseJava.setText("Generar En Java");
         btnGenerarClaseJava.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -181,7 +181,7 @@ public class VentanaPrincipal extends javax.swing.JFrame {
             }
         });
 
-        btnReset.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/nuevo.png"))); // NOI18N
+        btnReset.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/danyalvarez/generadordeclases/images/nuevo.png"))); // NOI18N
         btnReset.setText("Nueva Clase");
         btnReset.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -189,14 +189,14 @@ public class VentanaPrincipal extends javax.swing.JFrame {
             }
         });
 
-        btnA3D.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/a3d.png"))); // NOI18N
+        btnA3D.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/danyalvarez/generadordeclases/images/a3d.png"))); // NOI18N
         btnA3D.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 btnA3DActionPerformed(evt);
             }
         });
 
-        btnGenerarClaseCSharp.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/csharp.png"))); // NOI18N
+        btnGenerarClaseCSharp.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/danyalvarez/generadordeclases/images/csharp.png"))); // NOI18N
         btnGenerarClaseCSharp.setText("Generar En C#");
         btnGenerarClaseCSharp.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -344,7 +344,7 @@ public class VentanaPrincipal extends javax.swing.JFrame {
     }//GEN-LAST:event_btnResetActionPerformed
 
     private void btnA3DActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnA3DActionPerformed
-        JOptionPane.showMessageDialog(this, "Daniel Alvarez (a3dany)\nSoloInformaticaYAlgoMas.blogspot.com", "Acerca De Generador De Clases 1.3", JOptionPane.INFORMATION_MESSAGE);
+        JOptionPane.showMessageDialog(this, "Daniel Alvarez (a3dany)\nwww.danyalvarez.com", "Acerca De Generador De Clases 1.3.1", JOptionPane.INFORMATION_MESSAGE);
     }//GEN-LAST:event_btnA3DActionPerformed
 
     private void btnGenerarClaseCSharpActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnGenerarClaseCSharpActionPerformed
