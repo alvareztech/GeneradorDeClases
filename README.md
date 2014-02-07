@@ -1,10 +1,10 @@
-GeneradorDeClases
-=================
+Generador de Clases
+===================
 
 Generador de código de clases para los lenguajes de programación Java y C#.
 
 Características
-===============
+---------------
 
 - Permite crear clases padre e hija (herencia)
 - Genera getters y setters
