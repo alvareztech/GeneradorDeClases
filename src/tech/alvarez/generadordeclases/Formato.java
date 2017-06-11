@@ -1,4 +1,4 @@
-package com.danyalvarez.generadordeclases;
+package tech.alvarez.generadordeclases;
 
 import java.util.StringTokenizer;
 

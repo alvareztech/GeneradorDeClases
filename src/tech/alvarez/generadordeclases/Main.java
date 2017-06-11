@@ -1,11 +1,7 @@
-package com.danyalvarez.generadordeclases;
+package tech.alvarez.generadordeclases;
 
-import javax.swing.UIManager;
+import javax.swing.*;
 
-/**
- * Clase Main
- * @author Daniel Alvarez (a3dany)
- */
 public class Main {
 
     public static void main(String[] a3d) {

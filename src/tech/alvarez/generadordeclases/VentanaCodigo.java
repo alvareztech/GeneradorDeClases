@@ -1,4 +1,4 @@
-package com.danyalvarez.generadordeclases;
+package tech.alvarez.generadordeclases;
 
 import java.awt.Toolkit;
 import java.awt.datatransfer.Clipboard;
@@ -40,7 +40,7 @@ public class VentanaCodigo extends javax.swing.JDialog {
         txtCodigo.setMargin(new java.awt.Insets(5, 5, 5, 5));
         jScrollPane1.setViewportView(txtCodigo);
 
-        btnCopiar.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/danyalvarez/generadordeclases/images/portapapeles.png"))); // NOI18N
+        btnCopiar.setIcon(new javax.swing.ImageIcon(getClass().getResource("/tech/alvarez/generadordeclases/images/portapapeles.png"))); // NOI18N
         btnCopiar.setText("Copiar");
         btnCopiar.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -48,7 +48,7 @@ public class VentanaCodigo extends javax.swing.JDialog {
             }
         });
 
-        btnGuardar.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/danyalvarez/generadordeclases/images/guardar.png"))); // NOI18N
+        btnGuardar.setIcon(new javax.swing.ImageIcon(getClass().getResource("/tech/alvarez/generadordeclases/images/guardar.png"))); // NOI18N
         btnGuardar.setText("Guardar");
         btnGuardar.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
